@@ -10,6 +10,7 @@ body {
   margin: 0;
   font-size: 2rem;
   display: flex;
+  flex-direction: column;
   flex: 1;
   min-height: 100vh;
   align-items: center;
@@ -49,6 +50,14 @@ body {
   transform: rotate(90deg);
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.header {
+    margin-top: 20vh;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px 10px;
+    border-radius: 10px;
 }
 
 /* animated background */
